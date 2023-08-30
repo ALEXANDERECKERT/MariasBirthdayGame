@@ -112,6 +112,15 @@ let x = 0
 let mySprite2: Sprite = null
 let projectile: Sprite = null
 let mySprite: Sprite = null
+MakeyMakey.setSimulatorKeymap(
+MakeyMakey.PlayerNumber.ONE,
+MakeyMakey.MakeyMakeyKey.UP,
+MakeyMakey.MakeyMakeyKey.DOWN,
+MakeyMakey.MakeyMakeyKey.LEFT,
+MakeyMakey.MakeyMakeyKey.RIGHT,
+MakeyMakey.MakeyMakeyKey.SPACE,
+MakeyMakey.MakeyMakeyKey.G
+)
 mySprite = sprites.create(img`
     . f f f . f f f f . f f f . 
     f f f f f c c c c f f f f f 
